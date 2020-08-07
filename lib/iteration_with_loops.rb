@@ -6,7 +6,7 @@ while row_index < src.count do
   low_temp = 150 
   while element_index < src[row_index].count do
     if low_temp > src[row_index][element_index]
-      p low_temp = src[row_index][element_index]
+       low_temp = src[row_index][element_index]
     end
     element_index += 1 
   end
